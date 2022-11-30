@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}
+Insurance
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Insurance</a></li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://www.skymetweather.com/content/wp-content/uploads/2020/06/best-health-insurance.jpg" class="img-thumbnail" style="width:60vh;height:40vh;margin-right:15vh" alt="...">
+  </div>
+  <div>
+    <br><br><br>
+    <h2><b>Health insurance</b></h2>
+    <br>
+    <p class="mb-5" style="font-size:18px;">
+       <i>"EKA is associated with the top Insurance companies in the country for providing quality healthcare."</i>
+    </p>
+  </div>
+</div>
+<br><br><br>
+<div class="container">
+    <p style="font-size:18px">We accept all major national and international insurance schemes to provide you the best possible care at affordable rates. List of TPA companies & other firms with whom we have Memorandum of Understanding (MoU) – those firms which accept our package rates.</p>
+</div>
+<br><br>
+<br><br><br><br><br><br>
+
+{% endblock %}

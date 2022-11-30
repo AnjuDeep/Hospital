@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}
+Cardiology
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Cardiology</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://media.istockphoto.com/id/1143612743/photo/female-doctor-checks-girls-heartbeat.jpg?s=612x612&w=0&k=20&c=9a7JvmkeD7YgG_drWMhs1dqhKAc7almabTo3WScAGg4=" class="img-thumbnail" style="width:70vh;height:70vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Cardiology</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        The EKA Department of Cardiology offers the latest innovations in invasive and noninvasive cardiac care to patients of all ages. The department of Cardiology provides medical management for all kinds of diseases relating to the heart and circulatory system. Medical diagnosis and treatments are offered to health issues like heart failures, congenital heart diseases and various other disorders. Understanding the needs of heart patients, EKA has facilitated services of highly experienced cardiologists and advanced technology. Cutting‐edge facilities and services are provided to ensure quality care to the patients at affordable cost. Two Digital flat panel Cath lab with Gen 3 – Greenfield Technology, IVUS facility makes it easier to have best results making way for better diagnosis and treatment. The radionuclide cardiac imaging technology aims at better imaging with less radiation. The test is done to evaluate various cardiac issues. 
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+            <li>Digital flat panel Cath lab with Gen 3 – Greenfield Technology,<br>
+             29 cm Diagonal-Highest Detector efficiency, Longest Table with<br> 
+             highest fluoroscopic coverage (333cm with 186cm), IVUS facility etc</li>
+            <li>500 slice equivalent  multi detector Cardiac CT</li>
+            <li>Revolution EVo 128 slice Clarity detector Cardiac CT with ASiR-V <br>
+                Technology</li>
+            <li>1.5 TESLA High Definition MRI</li>
+            <li>Radionuclide Cardiac Imaging</li>
+            <li>3D & 4D Echocardiography and Trans-Oesophageal Echocardiography</li>
+            <li>Electrophysiology Lab</li>
+        </div>
+        <div style="float:right">
+            <li>TMT and 24 Hour Holter monitoring</li>
+            <li>Round the Clock Primary Angioplasty for Acute MI <br>(Heart attack)</li>
+            <li>Elective Angiogram and Angioplasty</li>
+            <li>Device closure of VSD,ASD & PDA</li>
+            <li>Valvuloplasty (Mitral, Aortic, Pulmonary)</li>
+            <li>Endovascular repair</li>
+            <li>Temporary & Permanent Pacemaker Implantation</li>
+            <li>Treatment of Congenital Heart Diseases</li>
+            <li>Evaluation and treatment of Arrhythmias</li>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+{% endblock %}

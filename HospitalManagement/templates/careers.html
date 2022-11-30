@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block title %}
+Careers
+{% endblock %}
+{% block content %}
+{% load static%}
+<div class="container">
+    <button class="btn btn-primary float-right"><a href="#section1" class="text-white" style="text-decoration:none;">Openings</a></button>
+</div><br><br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Careers</a></li>
+        </ol>
+    </nav>
+</div>
+<section>
+<div class="container mt-2">
+    <h2 class="text-center"><b>EKA Careers</b></h2><br>
+    <div class="row">
+  <div style="float:left;" class="w-50">
+    <img src="https://www.debt.org/wp-content/uploads/2018/12/Senior-Health-Care.jpg" class="img-thumbnail" style="width:80vh;height:42vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="w-50" style="float:right">
+    <h3>Join Our Journey to Excellence</h3>
+    <p style="font-size:15px;">
+        Synonymous with unparalleled healthcare, we are on the lookout for qualified professionals to nurture our mission of providing world class health care at affordable cost. We have been able to provide quality healthcare at affordable cost because of our people – team of qualified doctors, nurses, paramedics and other office staff. We invest in our people, to bring out their best, to enable them to grow in their career and pursue their aspirations. We believe that work is part of a meaningful life. We also recognise that our employees are individuals with their own personal needs. Please click on below icons to view existing positions in various categories and apply online. Alternatively, you may send your CV to <b>jobs@ekahospital.org</b> or call <b>+91-495-2778317</b> to speak to an HR executive.
+    </p>
+  </div>
+    </div>
+</div>
+</section>
+<br><br><br>
+<div class="container text-center p-2" style="background-color: orangered;height:40px">
+    <p style="font-size:16px;color:white">If you would like to work with a team of qualified professionals in providing world class healthcare at affordable cost, EKA would be the right choice!</p>
+</div>
+<section><br><br><br>
+    <div class="container text-center section one" id="section1" style="background-color:rgb(231, 228, 228);height: 40vh;"><br>
+        <h3 class="text-center" name="opening">Openings</a</h3><br><br>
+        <div class="row" style= "justify-content: center;">
+            <div class="col-sm-2 col-lg-2">
+                <div class="card ">
+                  <div class="card-body bg-white text-dark">
+                    <h5 class="card-title text-center">Nursing</h5>
+                    <a href="{% url 'contact' %}" class="btn btn-primary text-center ">4 Openings</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2">
+                <div class="card ">
+                  <div class="card-body bg-white text-dark">
+                    <h5 class="card-title text-center">Medical</h5>
+                    <a href="{% url 'contact' %}" class="btn btn-primary text-center ">2 Openings</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2">
+                <div class="card ">
+                  <div class="card-body bg-white text-dark">
+                    <h5 class="card-title text-center">QMS</h5>
+                    <a href="{% url 'contact' %}" class="btn btn-primary text-center ">1 Openings</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-lg-2">
+                <div class="card ">
+                  <div class="card-body bg-white text-dark">
+                    <h5 class="card-title text-center">Finance</h5>
+                    <a href="{% url 'contact' %}" class="btn btn-primary text-center ">2 Openings</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br><br><br>
+<br><br><br><br><br><br>
+
+{% endblock %}

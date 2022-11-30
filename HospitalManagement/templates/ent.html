@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %}
+ENT
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">ENT</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_qplx7jmTxZpY3-xnulFyZbXwRrgsHPA5eg&usqp=CAU" class="img-thumbnail" style="width:70vh;height:40vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>ENT</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        We know therefore we ensure advanced care for all kinds of health issues that affect the ear, nose and throat.
+    </p>
+  </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

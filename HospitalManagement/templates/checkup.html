@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}
+Health Checkup
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Health Checkup</a></li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://www.shutterstock.com/image-photo/doctor-measured-blood-pressure-patient-260nw-1803273970.jpg" class="img-thumbnail" style="width:60vh;height:60vh;margin-right:15vh" alt="...">
+  </div>
+  <div>
+    <h2><b>Health Checkup-Packages</b></h2><br>
+    <p class="mb-5" style="font-size:18px;">
+        People often forget the basic fact that good health is necessary for a happy, productive and rewarding life. To meet the growing demands of the competitive world, most of us tend to ignore our health until we are compelled to confront
+        a medical complication. To cope with the risk of medical disorders, health monitors have become mandatory. Most health problems can be managed more effectively if detected early.
+        The health check up program of EKA Kozhikode, aims to preserve and promote good health, to prevent diseases and disability and facilitate early diagnosis, followed by appropriate treatment.
+
+        A doctor’s prescription is not required for a health check up. You may choose the health checkup package which suits you best.
+    </p>
+  </div>
+</div>
+<br>
+<div class="container">
+    <h5 class="text-primary"><b>Preventive Health Care Packages Available at EKA</b></h5>
+    <br>
+    <p style="font-size:18px">
+        Though we appear fit and healthy, there might be some signs and symptoms which we might not notice always. In this fast paced life, people often forget to go for regular health checkups until they meet medical crisis. Just a few hours is what it takes for a health check up. We at EKA offer a comprehensive range of preventive check up for people of different age groups and requirements. The check up does not require a doctor’s prescription. The preventive health check up package for the patients includes the following:
+    </p>   <br> 
+</div>
+<section>
+    <div class="container">
+      <div class="row" style= "justify-content: center;">
+        <div class="mr-2">
+        <div class="card p-1" style="width:22.5rem;background-color:rgb(240, 142, 118);">
+          <img class="card-img-top mx-auto" style="height:46vh;width:52vh;"src="https://babymhospital.org/wp-content/uploads/2020/10/health1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-title text-center">EKA Master Health Check</h6>
+            <a href="{% url 'booking' %}" class="btn btn-primary ml-5" style="width:13vh">Book</a>
+            <a href="{% url 'contact' %}" class="btn btn-primary ml-3">Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="mr-2">
+        <div class="card p-1" style="width:22.5rem;background-color:rgb(240, 142, 118);">
+          <img class="card-img-top mx-auto" style="height:46vh;width:52vh;"src="https://t4.ftcdn.net/jpg/00/80/35/77/360_F_80357750_7GeHX2Hh8XJKPv8jK5dMcIA9Rxejyxpw.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-title text-center">EKA Executive Health Check</h6>
+            <a href="{% url 'booking' %}" class="btn btn-primary ml-5" style="width:13vh">Book</a>
+            <a href="{% url 'contact' %}" class="btn btn-primary ml-3">Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="mr-2">
+        <div class="card p-1" style="width:22.5rem;background-color:rgb(240, 142, 118);">
+          <img class="card-img-top mx-auto" style="height:46vh;width:52vh;"src="https://assets.lybrate.com/imgs/hp/u/cc190e8e128f3996b268bb4650a26e5f/863b1d-Diabetes_52.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h6 class="card-title text-center">EKA Diabetes Package</h6>
+            <a href="{% url 'booking' %}" class="btn btn-primary ml-5" style="width:13vh">Book</a>
+            <a href="{% url 'contact' %}" class="btn btn-primary ml-3">Enquiry</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row" style= "justify-content: center;">
+        <div class="mr-2">
+            <div class="card p-1 mt-3" style="width:22.5rem;background-color:rgb(240, 142, 118);">
+              <img class="card-img-top mx-auto" style="height:46vh;width:52vh;"src="https://www.lalpathlabs.com/blog/wp-content/uploads/2015/12/Health-Check-Up.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h6 class="card-title text-center">EKA Heart Check</h6>
+                <a href="{% url 'booking' %}" class="btn btn-primary ml-5" style="width:13vh">Book</a>
+                <a href="{% url 'contact' %}" class="btn btn-primary ml-3">Enquiry</a>
+              </div>
+            </div>
+          </div>
+          <div class="mr-2">
+            <div class="card p-1 mt-3" style="width:22.5rem;background-color:rgb(240, 142, 118);">
+              <img class="card-img-top mx-auto" style="height:46vh;width:52vh;"src="https://thumbs.dreamstime.com/b/free-health-screening-write-sticky-notes-above-smartphone-stethoscope-isolated-office-desk-free-health-screening-write-180848379.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h6 class="card-title text-center">EKA Health Screening</h6>
+                <a href="{% url 'booking' %}" class="btn btn-primary ml-5" style="width:13vh">Book</a>
+                <a href="{% url 'contact' %}" class="btn btn-primary ml-3">Enquiry</a>
+              </div>
+            </div>
+          </div>
+          <div class="mr-2">
+            <div class="card p-1 mt-3" style="width:22.5rem;background-color:rgb(240, 142, 118);">
+              <img class="card-img-top mx-auto" style="height:46vh;width:52vh;"src="https://brevardhealth.org/wp-content/uploads/2019/04/Doctor_Examining_Little_Girl_small.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h6 class="card-title text-center">EKA Paediatric Health Check</h6>
+                <a href="{% url 'booking' %}" class="btn btn-primary ml-5" style="width:13vh">Book</a>
+                <a href="{% url 'contact' %}" class="btn btn-primary ml-3">Enquiry</a>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<br><br>
+<br><br><br><br><br><br>
+
+{% endblock %}

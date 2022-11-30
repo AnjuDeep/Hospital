@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}
+Critical care
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Critical care</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://www.usa.philips.com/c-dam/b2bhc/master/topics/enhancing-visibility/checking-health-parameter.jpg" class="img-thumbnail" style="width:70vh;height:55vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Critical care</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        With a team of highly qualified and experienced doctors, nurses and support staff working together, we at EKA are dedicated to the management of critically ill patients. The Critical Care Centre at EKA provides round the clock swift and accurate treatment to patients with life‐threatening situations, including those acutely ill or critically injured. The closed multidisciplinary ICU at the department is the first‐of‐its‐kind in Kerala, manned by a team of intensivists & sophisticated critical care physicians. State‐of‐the‐art equipment and facilities are made available in the ICUs that make the department one of the best in the region.
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+            <li>First and only closed multidisciplinary ICU in North Kerala</li>
+            <li>14 bedded closed multidisciplinary ICU</li>
+            <li>12 bedded step down ICU [MICU II]</li>
+            <li>8 bedded Surgical ICU for poly trauma and complicated<br>
+                 surgical patients</li>
+            <li>Toxicology & Snake bite unit for poisoning, drug <br>
+                overdosage & snake bite cases</li>
+        </div>
+        <div style="float:right">
+            <li>Centralized monitoring system with distal eICU access to<br>
+                 consultants.</li>
+            <li>Bedside point of care ultrasound</li>
+            <li>Bedside bronchoscopy</li>
+            <li>ECMO</li>
+            <li>Haemodialysis & SLED</li>
+            <li>Point of care toxicology screening & drug level monitoring</li>
+            <li>Access to TOXBASE for updated toxicology management</li>
+        </div>
+    </ul>
+</div>
+<br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

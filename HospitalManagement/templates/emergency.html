@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block title %}
+Emergency Medicine
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Emergency Medicine</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://www.shutterstock.com/image-photo/hampstead-london-april-5-2018-260nw-1062713585.jpg" class="img-thumbnail" style="width:70vh;height:60vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Emergency Medicine</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        The medical professionals at the department along with the para-medical staff ensures that all medical emergencies are given prompt attention and refer to concerned departments.
+
+        Emergencies and disasters happen without warning, and treatment cannot wait. The doctors, paramedics and nurses in the Emergency Department of EKA swing into action to provide prompt and swift medical attention to contain the injuries, stabilise traumatized patients and save lives. We have multi-bedded ultra-modern resuscitation bay with dedicated team of experts specialised in trauma care, external cardiac massage and artificial respiration. The 24-bedded fully equipped Emergency department of EKA is well prepared to handle all kind of emergencies and disasters.
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+            <li>Mobile ICU- We have four ALS & 1 Bike ambulances handled<br>
+                by trained staff. The emergency medicine resident is given <br>
+                adequate exposure in the transfer and transport of patients<br>
+                from the field and between hospitals</li>
+            <li>4 State-of-the-art Mobile ICUs, with trained emergency <br>
+                physicians and paramedics for excellent pre hospital care</li>
+            <li>22 bedded fully equipped emergency department with prioritised<br>
+                 care</li>
+        </div>
+        <div style="float:right">
+            <li>4 bedded ultra-modern resuscitation bay</li>
+            <li>Point of care Ultrasonography</li>
+            <li>Specialised toxicology and snake bite treatment centre with<br>
+                Poison Information Unit</li>
+            <li>Decontamination room for toxicology</li>
+            <li>Emergency operation theatre</li>
+            <li>Negative pressure isolation room</li>
+        </div>
+    </ul>
+</div>
+<br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

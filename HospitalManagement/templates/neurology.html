@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block title %}
+Neurology
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Neurology</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLpatMWUOn9Nom8qcrefukCQTltgbYl6g5jA&usqp=CAU" class="img-thumbnail" style="width:70vh;height:40vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Neurology</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        At the neurology department we offer most accurate diagnosis and medical management of common to complex neurological conditions. We take a multidisciplinary approach in diagnosis and treatment of neurological conditions at the department, providing individual care to patients with diseases such as stroke, epilepsy, movement disorders, sleep disorders, and tumors of the brain, spine and nerves.
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+            <li>24 X 7 Neurological and Neuro Surgery care</li>
+            <li>Interventional Neurology</li>
+            <li>Cerebral & spinal Angiogram</li>
+            <li>Carotid & vertebral Angioplasty and stenting</li>
+            <li>Intra-Arterial Thrombolysis</li>
+            <li>Mechanical Thrombolysis</li>
+            <li>Aneurysm Coiling</li>
+            <li>AVM Embolization and Tumour embolization.</li>
+            
+        </div>
+        <div style="float:right">
+            <li>Special clinics for Epilepsy, Botox clinic, Movement <br>Disorders & Neuromuscular Disorders</li>
+            <li>Behavioural Neurology</li>
+            <li>Dedicated 14 bed Neurology and 12 bed Neurosurgery<br> ICUs with the latest</li>
+            <li>Haemodynamic monitoring and bedside continuous EEG<br> monitoring equipment</li>
+            <li>Electrophysiology Lab with Digital EEG with Brain<br> Mapping,hbvc</li>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

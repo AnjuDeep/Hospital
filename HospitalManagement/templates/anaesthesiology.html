@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block title %}
+Anaesthesiology
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Anaesthesiology</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://img.etimg.com/thumb/msid-49275070,width-650,imgsize-224067,,resizemode-4,quality-100/.jpg" class="img-thumbnail" style="width:70vh;height:40vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Anaesthesiology</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        Anaesthesiology is a specific part of medication committed to powerful relief from discomfort and complete consideration of the careful patient-previously, during, and after a medical procedure. Anaesthesiologists assist with guaranteeing the well-being of patients going through surgery. In expansion to the activity theatre complex, they provide safe and efficient anesthesia services in various locations/scenarios within the hospital.
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:20px;">
+        <div style="float:left" class="mb-5">
+        <li>Datex Ohmeda and Dragger workstations with vaporizers</li>
+        <li>Anaesthesia ventilators</li>
+        <li>Pulse oxymeters</li>
+        <li>Capnographs</li>
+        <li>Cardiographs Cardio scopes with defibrillators</li>
+        <li>C­arm image intensifiers</li>
+        <li>Neuromuscular monitors (TOF)</li>
+        <li>Syringe pumps</li>
+        <li>Infusion pumps</li>
+        </div>
+        <div style="float:right">
+        <li> Blood warmers</li>
+        <li> ABG analysers</li>
+        <li> Fibre optic bronchoscopes</li>
+        <li>Surgical Procedures</li>
+        <li>Medical and Diagnostic Procedures</li>
+        <li>Neurointerventional Procedures</li>
+        <li>Radiological Procedures</li>
+        <li>Endoscopy Procedures</li>
+        <li>Ultrasound for interventional procedures</li>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
+{% endblock %}

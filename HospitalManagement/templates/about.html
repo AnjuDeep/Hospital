@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}
+About
+{% endblock %}
+{% block content %}
+{% load static%}
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">About</a></li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://ekahospital.com/storage/gallery/1658084699-eka-bsd.jpg" class="img-thumbnail" style="width:80vh;height:90vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>ABOUT US</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        The vision ‘affordable, accessible and quality healthcare for all’, a dream of visionary, Dr. K G Alexander was made a reality in 1987 with the commencement of Baby EKA. The novel initiative then marked a revolution in the healthcare segment in Kerala, thus symbolizing an answer for the growing healthcare demands of the state. A tribute to late K C Varghese (known as ‘Baby’), father of Dr. K G Alexander, the Chairman and Managing Director, the hospital has set a benchmark in offering unprecedented care.
+
+        With only 52 beds when started, the hospital now boasts world‐class amenities, which includes:
+        <ul style="font-size:18px; float:rightcenter">
+            <li>600 beds.</li>
+            <li>Over 40 Medical and Surgical departments.</li>
+            <li>Exceptional paramedical support system.</li>
+            <li>16 world-class operation theatres.</li>
+            <li>11 fully equipped ultramodern ICUs.</li>
+            <li>24‐hours accident and trauma care unit.</li>
+        </ul>
+        <p style="font-size:18px">Adhering to strict and ethical medical practices, the hospital team ‐ which expands to 300 doctors and over 2000 nursing, paramedical and administrative staff – relentlessly strive to keep up our ideology, ‘ more than care ‘.</p>
+    </p>
+  </div>
+</div><br><br>
+<div class="container">
+    <div style="float:left;width:80vh;background-color:pink;height:44vh">
+        <u style="font-size:25px"><b><h4 class="ml-2 mt-2 p-3">Vision & Mission</h4></b></u>
+        <p style="font-size:18px" class="ml-4 mr-4 mt-1">Vision : Affordable, Accessible and Quality Services to All.
+
+        Mission : “EKA shall provide quality healthcare in a safe and patient centred environment by highly skilled professionals using current best medical practices and advanced technology. We offer patients outstanding value in an environment friendly atmosphere”.</p>
+    </div>
+    <div style="float:right;width:80vh;background-color:pink;height:44vh">
+        <u style="font-size:25px"><b><h4 class="ml-2 mt-2 p-3">EKA - more than care</h4></b></u>
+        <p style="font-size:18px" class="ml-4 mt-1 mr-4">Being committed to care for three decades has meant a lot to us. It helped us to understand better on how to give you more than care, through deeper understanding of your needs. We have thus, combined the best of healthcare, commitment and personal attention to give you a unique healing experience.</p>
+    </div>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
+{% endblock %}

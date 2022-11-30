@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block title %}
+Dermatology
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Dermatology</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://onewelbeck.com/media/3rph0y03/image2168.jpg" class="img-thumbnail" style="width:70vh;height:64vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Dermatology</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        EKA has a dedicated team of specialist headed by senior dermatologists to ensure the health of your skin. The Dermatology Department at EKA provides comprehensive treatment for clinical and cosmetic problems related to skin, hair and nails. We strive to erase cosmetic flaws and clinical complications and gift you healthy glowing skin. Specialized cosmetological procedures including Micro‐Dermabrasion, chemical peeling for mild and moderate acne scars, wrinkles, fine lines, sun‐ damaged skin and Radio Frequency surgical procedures like removal of skin tags, warts, freckles, birthmarks, moles (naevi) are routinely performed by experts at the department. The other services provided by the department include removal or management of warts, freckles, rashes, moles, blackheads, corns and calluses. 
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+            <li>Minor Operation Theatre</li>
+            <li>Dermaroller (Microneedling)</li>
+            <li>Ellmann Radiosurgery</li>
+            <li>Glycolic Acid Neostrata Peels</li>
+            <li>Microdermabrader</li>
+            <li><b>Dermatology Procedures</b></li>
+                <ul>
+                    <li>Molluscum Extraction<li>
+                    <li>Corn Paring</li>
+                    <li>Punch Grafting for Vitiligo.</li>
+                    <li>Patch Testing for contact allergic dermatitis</li>
+                    <li>Removal of warts</li>
+                    <li>Comedo extraction for Acne</li>
+                    <li>Skin Biopsy</li>
+                </ul>
+                
+            <li><b>Dermatology Procedures</b></li>
+                <ul>
+                    <li>Molluscum Extraction</li>
+                </ul>
+        </div>
+        <div style="float:right">
+            <li>Corn Paring</li>
+            <li>Punch Grafting for Vitiligo.</li>
+            <li>Patch Testing for contact allergic dermatitis</li>
+            <li>Removal of warts</li>
+            <li>Comedo extraction for Acne</li>
+            <li>Skin Biopsy</li>
+            <li>Intralesional injection</li>
+            <li>Milia extraction</li>
+            <li><b>Cosmetology Procedures</b></li>
+                <ul>
+                    <li>Chemical peels (for mild and moderate acne scars, wrinkles, <br>
+                    fine lines, sun damaged skin).</li>
+                    <li>Micro-Dermabrasion</li>
+                    <li>Radio frequency Surgery (for skin tags, warts, freckles, <br>
+                        birthmarks, moles (naevi))</li>
+                    <li>Microneedling (for Acne scars)</li>
+                </ul>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

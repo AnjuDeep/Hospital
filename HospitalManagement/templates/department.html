@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}
+Department
+{% endblock %}
+{% block content %}
+<div class="container-fluid ">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Departments</a></li>
+        </ol>
+      </nav>
+  </div>
+<h1 class="text-center">Our Departments</h1>
+<hr>
+{% for i in dept %}
+<div class="mx-auto w-50 bg-success text-center border border-warning rounded text-white p-3 my-1">
+    <h3>{{i.dep_name}}</h3>
+    <p>{{i.dep_descriptions}}</p>
+</div>
+{% endfor %}
+{% endblock %}

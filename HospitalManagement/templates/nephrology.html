@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block title %}
+Nephrology
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Nephrology</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6PqS59qFV7BGmtw1kNkWwhF1G8NcCj-rCaQ&usqp=CAU" class="img-thumbnail" style="width:70vh;height:60vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Nephrology</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        With the help of highly qualified and experienced physicians and surgeons the Department of Nephrology provides comprehensive diagnostic and treatment options for acute as well as chronic renal problems.
+
+        We provide the most advanced and innovative treatment techniques and concentrate on creating the right environment for renal patients. Our treatment extends to all kinds of kidney problems like diabetic nephropathy, chronic kidney failure, urinary tract neoplasm, renal parenchymal diseases, polycystic kidney diseases and several other inherited diseases. Once our nephrologists identify that the patient requires specialised tests after the initial assessment, they would refer them for appropriate diagnostic tests including urine and blood tests, kidney biopsy, ultrasonography and so on.
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+            <li>14 bedded Dialysis Unit with Ultra-modern Haemodialysis<br>
+                 machines and monitoring systems working round-the-clock</li>
+            <li>Modern Reverse Osmosis Plant</li>
+            <li>Separate Dialysis machines and isolation rooms for<br>
+                 HBsAg & HCV positive patients</li>
+        </div>
+        <div style="float:right">
+            <li>Regular Haemo Dialysis round-the-clock</li>
+            <li>Plasmapheresis and Peritoneal Dialysis</li>
+            <li>CAPD training programme for patients and their caregivers</li>
+            <li>Percutaneous Renal Biopsy under Ultra Sound guidance</li>
+            <li>Renal Histopathology and Immunofluorescence studies</li>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}

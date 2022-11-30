@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block title %}
+Ophthalmology
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Ophthalmology</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJWuaUV72KQ4FHAZ0sJLRiZ1pzUSd0GVaHQ&usqp=CAU" class="img-thumbnail" style="width:70vh;height:50vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Ophthalmology</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        We provide outstanding care to our patients with the help of our qualified ophthalmologist.
+
+        The department of Ophthalmology at EKA has world class facilities and well-trained medical personnel who provide treatments for various issues and afflictions that plague the eye.
+        
+        The department is equipped with state-of-the-art operation theatres and advanced eye care equipment. Patients can avail treatment for a number of eye issues, ranging from a routine eye check-up to more complex procedures like squint surgery and oculopastic surgery.
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:20px;">
+        <div style="float:left" class="mb-5">
+            <li>Routine eye check-up</li>
+            <li>Slit lamp exam</li>
+            <li>Gonioscopy</li>
+            <li>Direct and indirect Ophthalmoscopy</li>
+            <li>A/B scan</li>
+        </div>
+        <div style="float:right">
+            <li>Keratometry</li>
+            <li>Lacrimal sac surgery (external)</li>
+            <li>Chalazion / Stye Surgery</li>
+            <li>Conjunctival and Corneal FB removal</li>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
+
+{% endblock %}

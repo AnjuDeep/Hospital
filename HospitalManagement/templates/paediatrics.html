@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block title %}
+Paediatrics
+{% endblock %}
+{% block content %}
+{% load static%}
+<br>
+<div class="container-fluid">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{%url 'home'%}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Medical Specialities</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Paediatrics</li>
+        </ol>
+      </nav>
+</div>
+<div class="container mt-5">
+  <div style="float:left">
+    <img src="https://www.utsouthwestern.edu/departments/pediatrics/assets/divisions-landing-card-patient-care.jpg" class="img-thumbnail" style="width:70vh;height:50vh;margin-right:15vh" alt="...">
+  </div>
+  <div class="text-left">
+    <h2>Paediatrics</h2>
+    <hr>
+    <p class="mb-5" style="font-size:18px;">
+        At EKA, we provide specialised medical care to infants, children and adolescents ageing from birth to 18 years old. The Department of Paediatrics was one of the first departments to be started in the year 1987 along with the departments of General Medicine and Obstetrics & Gynaecology. Distinguished as ‘Baby Friendly Hospital in Malabar’ since 1993, the Department of Paediatrics offers the best child care. The department provides comprehensive care starting from preventive care to guidance for life skills for infants and children. 
+    </p>
+  </div>
+</div>
+<br><br>
+<div class="container">
+    <h2>Services & Facilities</h2>
+    <hr>
+    <ul style="font-size:18px;">
+        <div style="float:left" class="mb-5">
+           <li> Well-equipped 10 bed Paediatric Intensive Care Unit <br>
+            for the management of critically ill children</li>
+           <li>Well baby clinic with immunization services on all days <br>
+            except Sundays</li>
+           <li>Qualified personal to manage adolescent health issues</li>
+        </div>
+        <div style="float:right">
+            <li>24 hours facilities for all types of trauma care in children</li>
+            <li>Facilities for the management of poisoning in children</li>
+            <li>Special clinic for the management of children with Down<br> syndrome</li>
+        </div>
+    </ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+
+{% endblock %}
